@@ -89,6 +89,7 @@ const api = axios.create({
       movieBtn.addEventListener('click', () => {
         movieBtn.classList.toggle('movie-btn--liked');
         likeMovie(movie);
+        homePage();
       });
   
       if (lazyLoad) {
