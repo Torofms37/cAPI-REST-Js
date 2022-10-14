@@ -136,7 +136,7 @@ function searchPage() {
   genericSection.classList.remove('inactive');
   movieDetailSection.classList.add('inactive');
 
-  // ['#search', 'platzi']
+  // ['#search', 'Torofms37']
   const [_, query] = location.hash.split('=');
   getMoviesBySearch(query);
 
